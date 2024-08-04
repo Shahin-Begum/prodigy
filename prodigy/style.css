@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(246, 242, 240, 0.455)  url('cafe.jpeg') center center fixed;
+    background-size:cover;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.container h1 {
+    color:rgb(255, 250, 249);
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #faf6f6;
+    padding: 4px;
+    }
+    .navbar ul li a:hover {
+        box-shadow: 0 3px 50px rgb(134, 54, 28) inset, 0 3px 50px rgb(248, 242, 239) inset,
+        0 3px 50px rgb(250, 244, 242) inset,0 3px 50px rgb(246, 239, 237) inset;
+    }
+    .navbar .reservation {
+        padding: 8px;
+        background: rgb(34, 33, 32);
+    }
+    .content {
+        position: absolute;
+        color: #0c0c0c;
+        top: 30%;
+    left: 30%;
+    }
+    .content h3 {
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: 20%;
+
+    }
+    .content h1 {
+        font-size: 50px;
+    }
+    .content p {
+        text-align: center;
+        margin-top: 17px;
+
+    }
+    .search {
+
+        position: absolute;
+        margin-top: 21%;
+        margin-left: 37%;
+        border-radius: 20px ;
+    }
+    .search input {
+        outline: none;
+        border: none;
+        padding: 12px 40px;
+        size: 1em;
+        width: 100%;
+
+    }
+    .submit {
+        position: absolute;
+        margin-top: 31%;
+        margin-left: 45%;
+        
+    }
+
+    
+    .submit a{
+        text-decoration: none;
+        color: #ece9e9;
+        padding: 12px 25px;
+        background-color: rgb(62, 30, 9);
+
+    }
