@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    background:linear-gradient(#ff0000 ,#ffa500 ,#ffff00 ,#008000,#0000ff , #4b0082 ,#ee82ee ) ;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 270px;
+    width: 270px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .gold {
+    font-weight: 900;
+    font-outline: black 5px;
+  
+    color: #eab61d;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    right: 60px;
+    cursor: pointer;
+    background: transparent;
+    padding: 40px;
+    border: none;
+    margin: 40;
+    outline: none;
+  }
+  
+  #playButton {
+    
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+   
+   
+  }
+  
+  #pauseButton {
+    display: none;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  #resetButton {
+    display: block;
+   
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  
